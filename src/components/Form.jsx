@@ -61,7 +61,7 @@ function Form() {
 			newErrors.phoneNumber = "Invalid phone number";
 		}
 
-        if (formData.altPhoneNumber == formData.phoneNumber) {
+        if (formData.altPhoneNumber === formData.phoneNumber) {
 			newErrors.altPhoneNumber = "Phone Number and alternate phone number should not be same";
 		}
 

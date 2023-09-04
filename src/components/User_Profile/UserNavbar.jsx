@@ -4,12 +4,12 @@ function UserNavbar({ userData }) {
 			<div className="w-full text-white bg-main-color">
 				<div className="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
 					<div className="p-4 flex flex-row items-center justify-between">
-						<a
+						<span
 							href="#"
 							className="text-lg font-semibold tracking-widest uppercase rounded-lg focus:outline-none focus:shadow-outline"
 						>
 							User profile
-						</a>
+						</span>
 					</div>
 					<nav className="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
 						<div className="relative">
@@ -20,6 +20,7 @@ function UserNavbar({ userData }) {
 								<img
 									className="inline h-6 rounded-full"
 									src="http://via.placeholder.com/64x64"
+									alt="Error"
 								/>
 							</div>
 						</div>
